@@ -1,0 +1,40 @@
+{
+  "name": "better-auth-vuln",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "biome lint .",
+    "format": "biome format --write ."
+  },
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "react-dom": "^19.2.1",
+    "@heroui/system": "^2.4.23",
+    "@heroui/theme": "^2.4.23",
+    "@heroui/toast": "^2.0.17",
+    "@heroui/button": "^2.2.27",
+    "next-themes": "^0.4.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.292.0",
+    "tailwind-merge": "^2.0.0",
+    "ultracite": "^5.0.46",
+    "mongodb": "^7.0.0",
+    "better-auth": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.1",
+    "@types/react-dom": "^19.2.1",
+    "@types/node": "^20.9.0",
+    "tailwindcss": "4.1.11",
+    "typescript": "^5.9.3",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@biomejs/biome": "^2.3.8"
+  }
+}
