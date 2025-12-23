@@ -1,10 +1,9 @@
 import { MongoClient } from "mongodb";
+import { MongoMemoryServer } from "mongodb-memory-server";
 
-if (!process.env.MONGODB_URI) {
-    throw new Error('Invalid/Missing environment variable: "MONGODB_URI"');
-}
+const mongod = await MongoMemoryServer.create();
 
-const uri = process.env.MONGODB_URI;
+const uri = mongod.getUri();
 const options = {};
 
 let client: MongoClient;

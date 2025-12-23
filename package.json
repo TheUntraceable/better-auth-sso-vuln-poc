@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "dev": "cd src && bun index.ts",
-    "mongo": "cd src && bun mongodb-server",
     "exploit": "cd src && bun poc",
     "mock-sso": "cd src/mock-sso && bun index.ts",
     "format": "biome format --write ."
