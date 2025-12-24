@@ -60,31 +60,31 @@ the organization.
 
 1. Clone this repository:
 
-```bash
+   ```bash
    git clone https://github.com/TheUntraceable/better-auth-sso-vuln-poc.git
    cd better-auth-sso-vuln-poc
    ```
 
-1. **Install Dependencies**: Make sure you have Bun installed. Then, install the necessary dependencies.
+2. **Install Dependencies:**
 
    ```bash
    bun install # Use npm or whatever if you don't use Bun
    ```
 
-2. **Start the Mock SSO Server**: In one terminal, start the mock SSO server.
+3. **Start the Mock SSO Server**: In one terminal, start the mock SSO server.
 
    ```bash
    bun mock-sso
    ```
 
-3. **Start the Vulnerable Better Auth Instance**: In another terminal, start the Better
+4. **Start the Vulnerable Better Auth Instance**: In another terminal, start the Better
     Auth instance.
 
     ```bash
     bun dev
     ```
 
-4. **Run the Exploit**: Finally, in a third terminal, run the exploit script.
+5. **Run the Exploit**: Finally, in a third terminal, run the exploit script.
 
     ```bash
     bun exploit
