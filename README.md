@@ -61,11 +61,6 @@ the organization.
 1. Clone this repository:
 
 ```bash
-## PoC Setup Instructions
-
-1. **Clone the Repository**: Start by cloning this repository to your local machine.
-
-   ```bash
    git clone https://github.com/TheUntraceable/better-auth-sso-vuln-poc.git
    cd better-auth-sso-vuln-poc
    ```
