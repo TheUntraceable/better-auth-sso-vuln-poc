@@ -3,6 +3,7 @@
 **Severity**: Critical (CVSS 9.8)
 **Affected Versions**: Better Auth v1.3.6 (SSO plugin)  
 **Status**: Responsibly disclosed, patched in v1.3.7
+**Reported on:** August 16th 2025
 
 ## Vulnerability Summary
 
